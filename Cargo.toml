@@ -1,0 +1,21 @@
+[package]
+name = "ironsea_store"
+version = "0.1.0"
+authors = ["EPFL-DIAS", "Lionel Sambuc <lionel.sambuc@epfl.ch>"]
+
+edition = "2018"
+
+description = "Traits definitions for the Iron Sea database toolkit structures which can be saved and loaded to and from storage."
+homepage = "https://crates.io/crates/ironsea_store"
+repository = "https://github.com/epfl-dias/ironsea_store"
+readme = "README.md"
+
+keywords = []
+categories = ["database-implementations", "data-structures"]
+
+license = "MIT"
+#license-file = "LICENSE"
+
+include = ["Cargo.toml", "README.md", "LICENSE", "ACKNOWLEDGEMENTS", "src/**/*.rs"]
+
+[dependencies]
